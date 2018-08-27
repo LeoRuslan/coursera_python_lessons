@@ -94,3 +94,27 @@ class Matrix:
 
 
 exec(stdin.read())
+#
+# m1 = Matrix([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
+# m2 = Matrix([[0, 1, 0], [20, 0, -1], [-1, -2, 0]])
+# print(m1 + m2)
+#
+# m2 = Matrix([[0, 1, 0], [20, 0, -1]])
+# try:
+#     m = m1 + m2
+#     print('WA\n' + str(m))
+# except MatrixError as e:
+#     print(e.matrix1)
+#     print(e.matrix2)
+#
+#
+# m = Matrix([[10, 10], [0, 0], [1, 1]])
+# print(m)
+# m1 = m.transpose()
+# print(m)
+# print(m1)
+#
+# m = Matrix([[10, 10], [0, 0], [1, 1]])
+# print(m)
+# print(Matrix.transposed(m))
+# print(m)
